@@ -1,11 +1,12 @@
-.row + .row {
-  margin-top: 16px;
+.l-header {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+.l-main {
+  padding: 50px 0;
+}
+
+.l-footer {
+  background: #000;
 }
