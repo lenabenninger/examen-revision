@@ -1,0 +1,27 @@
+.flex-child {
+  border: 1px solid #0d47a1;
+  background: #42a5f5;
+  padding: 20px;
+}
+
+.flex-parent-1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.flex-parent-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.flex-parent-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-parent-3 .flex-child {
+  width: 25%;
+}
